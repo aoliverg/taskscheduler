@@ -12,9 +12,10 @@ The script reads a file proces.txt that should contain one script to run in each
 
 Remember that the scritps to run should start with the following line to use the paths relatives to the script:
 
+```
 #! /bin/bash
 cd $(dirname $0)
-
+```
 
 A typical situation would be control training of NMT system using Marian. Each training script should look like the following:
 
