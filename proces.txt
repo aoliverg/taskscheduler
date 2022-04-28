@@ -1,0 +1,2 @@
+/home/user/task1directory/task1.sh
+/home/user/taskndirectory/taskn.sh
